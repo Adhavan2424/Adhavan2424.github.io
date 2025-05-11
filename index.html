@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adhavan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo"><span>Adhavan</span></a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#courses">Courses</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+        </nav>
+        <a href="#contact" class="contact">Contact</a>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Adhavan</span>,<br>an Electronics Engineer</h1>
+            <p>I'm a postgraduate in Electronics with a strong interest in embedded systems, IoT, and signal processing. I love building real-time applications that combine hardware and software effectively.</p>
+            <div class="btn-box">
+                <a href="Adhavan_resume.pdf" class="btn-1" download>Download Resume</a>
+            </div>
+        </div>  
+        <div class="img-box">
+            <img src="image.jpg" alt="Profile Photo">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-img">
+            <img src="image.jpg" alt="Profile Photo">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>I'm an M.Sc. Electronics student with a passion for integrating hardware and software. My expertise includes Raspberry Pi, ESP32, STM32 microcontrollers, and sensor-based projects.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Embedded Systems</h3>
+                <ul>
+                    <li>Arduino</li>
+                    <li>STM32</li>
+                    <li>ESP32</li>
+                    <li>Raspberry Pi</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Programming</h3>
+                <ul>
+                    <li>C</li>
+                    <li>LABVIEW</li>
+                    <li>Embedded C</li>
+                    <li>MATLAB</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>IoT Technologies</h3>
+                <ul>
+                    <li>MQTT</li>
+                    <li>Blynk</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience and Courses Section -->
+    <div class="experience-courses-container">
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <h2 class="heading">My <span>Experience</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">May 2024 - June 2024</div>
+                    <div class="timeline-content">
+                        <h3>Embedded Trainee</h3>
+                        <p>Vasantha Advanced Systems, Coimbatore</p>
+                        <ul class="experience-details">
+                            <li>Developed firmware for industrial automation systems</li>
+                            <li>Worked with STM32 microcontrollers</li>
+                            <li>Implemented communication protocols</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses" class="courses">
+            <h2 class="heading">Additional <span>Courses</span></h2>
+            <div class="courses-list">
+                <div class="course-item">
+                    <div class="course-date">september 2022-december 2022</div>
+                    <div class="course-content">
+                        <h3>Embedded Systems Certification</h3>
+                        <p>NPTEL Online Certification</p>
+                        <ul class="course-details">
+                            <li>Microcontroller architecture</li>
+                            <li>RTOS fundamentals</li>
+                            <li>Embedded C programming</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="course-item">
+                    <div class="course-date">march 2021-may 2021</div>
+                    <div class="course-content">
+                        <h3>Diploma in computerized Android & iPhone servicing, hardware and software</h3>
+                        <p>Course</p>
+                        <ul class="course-details">
+                            <li>Mobile service</li>
+                            <li>software debugging</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class='bx bx-chip'></i>
+                </div>
+                <h3>Gesture Control Home Automation</h3>
+                <p>Designed a gesture-controlled home automation system using an ESP32-CAM, enabling contactless control of household appliances. Implemented real-time gesture recognition through camera input for intuitive and accessible smart home interaction.</p>
+                <ul class="tech-used">
+                    <li>ESP32 Cam</li>
+                    <li>Li-ion battery</li>
+                    <li>Google Cloud integration</li>
+                </ul>
+            </div>
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class='bx bx-microchip'></i>
+                </div>
+                <h3>Wireless Power Transfer</h3>
+                <p>The basic working principle of inductive WPT charging is that there are two parts of the inductor. The high frequency AC is transmitted from the charger to the secondary side and then converted to DC power and it's supplied to the battery.</p>
+                <ul class="tech-used">
+                    <li>TX/RX coil</li>
+                    <li>Voltage regulator</li>
+                    <li>BMS</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="education-container">
+            <div class="education-box">
+                <i class='bx bxs-graduation'></i>
+                <h3>M.Sc. Electronics</h3>
+                <p>St. Joseph's College Trichy | 2023-2025</p>
+                <p>Subjects covered: Artificial Intelligence, Mechatronics, MATLAB, IoT, and Biomedical Electronics.</p>
+            </div>
+            <div class="education-box">
+                <i class='bx bxs-graduation'></i>
+                <h3>B.Sc. Electronics</h3>
+                <p>St. Joseph's College Trichy | 2018-2021</p>
+                <p>Focus on analog/digital circuit design.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="heading">Contact <span>Info</span></h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class='bx bx-envelope'></i>
+                <div class="contact-details">
+                    <h3>Email</h3>
+                    <p>adhavan0908@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class='bx bx-phone'></i>
+                <div class="contact-details">
+                    <h3>Phone</h3>
+                    <p>+91 9629405800</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/adhavan24" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+        <p class="copyright">© 2025 Adhavan | All Rights Reserved</p>
+    </footer>
+
+    <!-- Smooth Scroll JS -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
