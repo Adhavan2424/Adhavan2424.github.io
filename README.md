@@ -1,2 +1,2 @@
-# https://Adhavan2424.github.io/my-portfolio
+# https://Adhavan2424.github.io
 My personal portfolio website
